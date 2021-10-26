@@ -3,6 +3,33 @@
 <head>
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <style>
+     ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 body {
   background-image: url("paper.gif");
@@ -29,7 +56,7 @@ div.ex2 {
 </head>
  
 <body>
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
 <div class="ex1"><h1>This this a "Time tuner " website that help a group of people indulging in a activity like classes,corporate meeting, gaming etc to finalise the best time without much discution and effort</h1></div>
 <br>
 <div class="ex2"><h2>This is the navigation available at our homepage</h2></div>
@@ -38,6 +65,16 @@ div.ex2 {
     <div class="navbar-header">
       <a class="navbar-brand" href="#">Home Page</a>
     </div>
+     <ul>
+   <li><a href="#"> ME</a></li>
+      <li><a href="#">Friends</a></li>
+      <li><a href="#">Meet</a></li>
+       <li><a href="#">Calendar</a></li>
+        <li><a href="#">Groups</a></li>
+         <li><a href="#">Log In</a></li>
+          <li><a href="#">Sign In</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
     <ul class="nav navbar-nav">
       <li class="active"><a href="#">Home</a></li>
       <li><a href="#"> ME</a></li>
