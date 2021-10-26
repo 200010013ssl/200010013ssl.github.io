@@ -13,128 +13,22 @@ div.ex1 {
   border: 2px solid black;
   padding: 15px;
 }
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-}
-
-.switch input { 
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-input:checked + .slider {
-  background-color: #2196F3;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
 
 
-.slider.round {
-  border-radius: 34px;
-}
 
-.slider.round:before {
-  border-radius: 50%;
-}
 </style>
 </head>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <body>
-<div class="ex1">This is our "ME" page.</div>
+<div class="ex1"><h1>This is our "ME" page.</h1></div>
 <br>
-<h1>ME</h1>
+<h2> Here the user changes the ON/OFF switch for different activities that they might be interested or not.  
+    These details will be updated in the respective place in the database and will be considered for various decision.
+  </h2> 
+  
 
 
-<h2>Activity A</h2>
-<label class="switch">
-  <input type="checkbox" checked>
-  <span class="slider round"></span>
-</label>
 
-<h2>Activity B</h2>
-<label class="switch">
-  <input type="checkbox" checked>
-  <span class="slider round"></span>
-</label>
-
-<h2>Activity C</h2>
-<label class="switch">
-  <input type="checkbox" checked>
-  <span class="slider round"></span>
-</label>
-
-<h2>Activity D</h2>
-<label class="switch">
-  <input type="checkbox" checked>
-  <span class="slider round"></span>
-</label>
-
-<h2>Activity E</h2>
-<label class="switch">
-  <input type="checkbox" checked>
-  <span class="slider round"></span>
-</label>
-
-
-  <h2>Group 1</h2>
-<label class="switch">
-  <input type="checkbox" checked>
-  <span class="slider round"></span>
-</label>
-
-<h2>Group 2</h2>
-<label class="switch">
-  <input type="checkbox" checked>
-  <span class="slider round"></span>
-</label>
-
-<h2>Group 3</h2>
-<label class="switch">
-  <input type="checkbox" checked>
-  <span class="slider round"></span>
-</label>
-
-<h2>Group 4</h2>
-<label class="switch">
-  <input type="checkbox" checked>
-  <span class="slider round"></span>
-</label>
 
 </body>
 </html> 
