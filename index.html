@@ -1,36 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- favicon -->
-     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- custom style sheet -->
-    <link rel="stylesheet" href="style.css">
-
-    <title>To Do List</title>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-
 <body>
-        <h3>to do list</h3>
-        <ul id="ul">
-            <li>go to the market <i class="far fa-trash-alt"></i></li>
-            <li>Buy some Pinapple<i class="far fa-trash-alt"></i></li>
-        </ul>
 
-        <button id="btn"><i class="fas fa-plus-circle"></i></button>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Home Page</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#"> ME</a></li>
+      <li><a href="#">Friends</a></li>
+      <li><a href="#">Meet</a></li>
+       <li><a href="#">Calendar</a></li>
+        <li><a href="#">Groups</a></li>
+         <li><a href="#">Log In</a></li>
+          <li><a href="#">Sign In</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+  <h3>Inverted Navbar</h3>
+  <p>An inverted navbar is black instead of gray.</p>
+</div>
 
-
-    <script src="script.js"></script>
 </body>
-
 </html>
